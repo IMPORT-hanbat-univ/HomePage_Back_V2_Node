@@ -1,6 +1,6 @@
 const Sequelize= require('sequelize');
 
-module.exports = class Web extends Sequelize.Model{
+module.exports = class Comment1 extends Sequelize.Model{
     static init(sequelize){
         return super.init({
             commentId:{
